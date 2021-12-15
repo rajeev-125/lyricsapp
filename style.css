@@ -22,22 +22,23 @@ body{
 
 #inputdata{
     width: 350px;
-    height: 50px;
-    border-radius: 6px;
-    font-size: 40px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 25px;
 }
 
 #btn{
     width: 100px;
-    height: 45px;
+    height: 40px;
     border-radius: 15px;
+    padding-top: 10px;
 }
 
 #result{
     background-color: bisque;
     font-family: cursive;
     padding: 15px;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     word-spacing: 5px;
     
@@ -61,13 +62,16 @@ h1{
 
 button:hover{
     background-color: crimson;
-    font-size: xx-large;
-    width: max-content;
-    height: max-content;
+
+  ;
 }
 
 #btn:hover{
     background-color: aqua;
-    width: max-content;
-    height: max-content;
+  
 }
+input[type="text"]::placeholder {  
+                  
+    size: 3px;
+    padding-left: 20px; 
+} 
